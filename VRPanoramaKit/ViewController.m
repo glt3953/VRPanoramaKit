@@ -32,7 +32,7 @@
 - (PanoramaController *)panoVc{
     
     if (_panoVc == nil) {
-        _panoVc  = [[PanoramaController alloc] initWithImageName:@"park" type:@"jpg"];
+        _panoVc  = [[PanoramaController alloc] initWithImageName:@"park" type:@"jpg"]; //park.jpg,Panorama.jpg
         
     }
     return _panoVc;
